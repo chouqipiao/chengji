@@ -704,7 +704,7 @@ def register_new_analysis_callbacks(app, data_store=None):
                 html.H5("❌ 分析失败", className="alert-heading"),
                 html.P(f"错误信息: {str(e)}")
             ], color="danger")
-            return error_alert, {"data": [], "layout": {}}, html.Div(), ""
+            return error_alert, {"data": [], "layout": {}}, html.Div(), "", html.Div()
     
     # 小题分析回调
     @app.callback(

@@ -162,13 +162,11 @@ app = dash.Dash(
     # 指定静态文件夹为static文件夹
     assets_folder="static",
     external_stylesheets=[
-        "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
-        "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css"
+        "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css",
+        "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.0/font/bootstrap-icons.min.css"
     ],
     external_scripts=[
-        # 使用稳定版本的Plotly.js - 更轻量的版本
-        "https://cdn.plot.ly/plotly-2.25.2.min.js",
-        # 备用CDN以防主CDN失败
+        # 使用稳定版本的Plotly.js
         "https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.25.2/plotly.min.js",
     ],
     suppress_callback_exceptions=True,
