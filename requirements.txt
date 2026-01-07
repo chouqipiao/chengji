@@ -1,0 +1,44 @@
+# 高要区成绩分析系统 - 依赖文件
+# 自动生成，基于项目实际使用的第三方库
+
+# Web框架核心
+dash>=3.0.0
+dash-bootstrap-components>=2.0.0
+dash-table>=5.0.0
+
+# 数据处理
+pandas>=2.0.0
+numpy>=1.24.0
+
+# 图表可视化
+plotly>=5.15.0
+matplotlib>=3.7.0
+kaleido>=0.2.1
+
+# PDF导出
+reportlab>=4.0.0
+
+# Excel文件处理
+openpyxl>=3.1.0
+
+# 性能优化
+orjson>=3.10.0
+
+# 系统监控
+psutil>=5.9.0
+
+# 高级数据分析（可选）
+scipy>=1.10.0
+statsmodels>=0.14.0
+scikit-learn>=1.3.0
+
+# 安装提示：
+# 1. 推荐使用国内镜像源：
+#    pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple/
+#
+# 2. 或者使用清华源配置：
+#    pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple/
+#
+# 3. 安装后建议运行：
+#    python app.py
+#    检查是否正常启动
